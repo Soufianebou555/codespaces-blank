@@ -1,0 +1,17 @@
+
+
+void main() {
+  double age = 30;
+  int pc = 8; // Nombre de projets complétés
+
+  age += 1;       // anniversaire
+  age = 40;       // changement de repère : âge symbolique
+  age -= 5;       // retour en arrière (remise en question ?)
+  age *= 2;       // double expérience
+  age /= 2;       // retour à l’équilibre
+
+  // Bonus d’expérience : chaque projet ajoute 0.5 année de "maturité"
+  age += pc * 0.5;
+
+  print('L\'âge symbolique enrichi par l\'expérience est : $age');
+}
